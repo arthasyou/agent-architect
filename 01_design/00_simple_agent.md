@@ -30,12 +30,12 @@ Agent 不是生命，不是意识。
 
 ## 六个核心功能
 
-**1. 认知（Cognition）**
-**2. 记忆（Memory）**
-**3. 行为调制状态（Control State）**
-**4. 行动（Action / MCP）**
-**5. 时间 / 调度（Runtime）**
-**6. 感官（Perception）**
+- **1. 认知（Cognition）**
+- **2. 记忆（Memory）**
+- **3. 行为调制状态（Control State）**
+- **4. 行动（Action / MCP）**
+- **5. 时间 / 调度（Runtime）**
+- **6. 感官（Perception）**
 
 ### 1. 认知（Cognition）
 
