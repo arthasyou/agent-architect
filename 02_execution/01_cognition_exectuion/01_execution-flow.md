@@ -170,3 +170,19 @@ Runtime / Action / Memory
 - Cognition 不负责执行、不负责调度、不负责存储
 - Cognition 的输入是“材料集合”，不是 prompt
 - Cognition 的输出是“语义结果”，不是行为指令
+
+## 7. 流程
+
+```text
+Raw Inputs
+↓
+Collection
+↓
+Organize
+↓
+CognitionInput
+↓
+Cognition (LLM)
+↓
+CognitionResult
+```
