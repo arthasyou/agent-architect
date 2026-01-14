@@ -5,6 +5,9 @@
 
 本文档不涉及字段设计、不涉及模型实现，仅定义执行语义。
 
+> 注意：本文档只覆盖 “Raw Inputs → CognitionResult” 这段流水线。  
+> 系统层面的闭环（触发/消费/反馈回流/终止）由 Runtime 定义，见：`02_execution/00_runtime/01_runtime-loop.md`。
+
 ---
 
 ## 1. Cognition 的原始输入是什么？
