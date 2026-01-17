@@ -92,14 +92,14 @@ Runtime 对行为状态事件的最小假设是：
 
 ---
 
-## 4. Memory 与 Control State 的输入地位说明
+## 4. Memory 与 Agent State 的输入地位说明
 
-Memory 与 Control State **不作为 Runtime 的输入事件**。
+Memory 与 Agent State **不作为 Runtime 的输入事件**。
 
 它们在 Runtime 中的角色是：
 
 - **Memory**：作为历史背景，在裁决阶段被查询
-- **Control State**：作为裁决约束条件，影响裁决结果
+- **Agent State**：作为全局运行背景，约束裁决的可执行性与节奏
 
 二者均不触发因果时间段的推进，
 也不构成 Runtime 的驱动事件。

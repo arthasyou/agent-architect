@@ -79,7 +79,9 @@ Runtime 在裁决完成后必须输出：
 ### 5.2 适用对象
 
 - Memory 写入
-- Control State 变更
+- 其他需要跨 Epoch 生效的持久化系统状态（若存在）
+
+Agent State 为派生状态，不属于可提交对象。
 
 ### 5.3 结构约束
 
